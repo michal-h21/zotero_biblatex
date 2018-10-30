@@ -238,7 +238,8 @@
     },
     'library': {
         'type': 'f_literal',
-        'biblatex': 'library'
+        'biblatex': 'library',
+        'csl': 'call-number'
     },
     'location': {
         'type': 'l_literal',
