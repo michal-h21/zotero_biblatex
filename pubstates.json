@@ -1,0 +1,22 @@
+{
+    "inpreparation": {
+        "csl": "in preparation",
+        "biblatex": "inpreparation"
+    },
+    "submitted": {
+        "csl": "submitted",
+        "biblatex": "submitted"
+    },
+    "forthcoming": {
+        "csl": "forthcoming",
+        "biblatex": "forthcoming"
+    },
+    "inpress": {
+        "csl": "in press",
+        "biblatex": "inpress"
+    },
+    "prepublished": {
+        "csl": "prepublished",
+        "biblatex": "prepublished"
+    }
+}

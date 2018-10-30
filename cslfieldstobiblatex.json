@@ -1,0 +1,425 @@
+{
+    "abstract": {
+        'type': 'f_long_literal',
+        'biblatex': 'abstract',
+        'csl': 'abstract'
+    },
+    'addendum': {
+        'type': 'f_literal',
+        'biblatex': 'addendum'
+    },
+    'afterword': {
+        'type': 'l_name',
+        'biblatex': 'afterword'
+    },
+    'annotation': {
+        'type': 'f_long_literal',
+        'biblatex': 'annotation'
+    },
+    'annotator': {
+        'type': 'l_name',
+        'biblatex': 'annotator'
+    },
+    'author': {
+        'type': 'l_name',
+        'biblatex': 'author',
+        'csl': 'author'
+    },
+    'bookauthor': {
+        'type': 'l_name',
+        'biblatex': 'bookauthor',
+        'csl': 'container-author'
+    },
+    'bookpagination': {
+        'type': 'f_key',
+        'biblatex': 'bookpagination',
+        "options": ['page', 'column', 'section', 'paragraph', 'verse', 'line']
+    },
+    'booksubtitle': {
+        'type': 'f_title',
+        'biblatex': 'booksubtitle'
+    },
+    'booktitle': {
+        'type': 'f_title',
+        'biblatex': 'booktitle',
+        'csl': 'container-title'
+    },
+    'booktitleaddon': {
+        'type': 'f_title',
+        'biblatex': 'booktitleaddon'
+    },
+    'chapter': {
+        'type': 'f_literal',
+        'biblatex': 'chapter',
+        'csl': 'chapter-number'
+    },
+    'commentator': {
+        'type': 'l_name',
+        'biblatex': 'commentator'
+    },
+    'date': {
+        'type': 'f_date',
+        'biblatex': 'date',
+        'csl': 'issued'
+    },
+    'doi': {
+        'type': 'f_verbatim',
+        'biblatex': 'doi',
+        'csl': 'DOI'
+    },
+    'edition': {
+        'type': 'f_integer',
+        'biblatex': 'edition',
+        'csl': 'edition'
+    },
+    'editor': {
+        'type': 'l_name',
+        'biblatex': 'editor',
+        'csl': 'editor'
+    },
+    'editora': {
+        'type': 'l_name',
+        'biblatex': 'editora'
+    },
+    'editorb': {
+        'type': 'l_name',
+        'biblatex': 'editorb'
+    },
+    'editorc': {
+        'type': 'l_name',
+        'biblatex': 'editorc'
+    },
+    'editortype': {
+        'type': 'f_key',
+        'biblatex': 'editortype',
+        'options': ['editor', 'compiler', 'founder', 'continuator', 'redactor', 'reviser', 'collaborator']
+    },
+    'editoratype': {
+        'type': 'f_key',
+        'biblatex': 'editoratype',
+        'options': ['editor', 'compiler', 'founder', 'continuator', 'redactor', 'reviser', 'collaborator']
+    },
+    'editorbtype': {
+        'type': 'f_key',
+        'biblatex': 'editorbtype',
+        'options': ['editor', 'compiler', 'founder', 'continuator', 'redactor', 'reviser', 'collaborator']
+    },
+    'editorctype': {
+        'type': 'f_key',
+        'biblatex': 'editorctype',
+        'options': ['editor', 'compiler', 'founder', 'continuator', 'redactor', 'reviser', 'collaborator']
+    },
+    'eid': {
+        'type': 'f_literal',
+        'biblatex': 'eid'
+    },
+    'entrysubtype': {
+        'type': 'f_literal',
+        'biblatex': 'entrysubtype'
+    },
+    'eprint': {
+        'type': 'f_verbatim',
+        'biblatex': 'eprint'
+    },
+    'eprintclass': {
+        'type': 'f_literal',
+        'biblatex': 'eprintclass'
+    },
+    'eprinttype': {
+        'type': 'f_literal',
+        'biblatex': 'eprinttype'
+    },
+    'eventdate': {
+        'type': 'f_date',
+        'biblatex': 'eventdate',
+        'csl': 'event-date'
+    },
+    'eventtitle': {
+        'type': 'f_title',
+        'biblatex': 'eventtitle',
+        'csl': 'event'
+    },
+    'file': {
+        'type': 'f_verbatim',
+        'biblatex': 'file'
+    },
+    'foreword': {
+        'type': 'l_name',
+        'biblatex': 'foreword'
+    },
+    'holder': {
+        'type': 'l_name',
+        'biblatex': 'holder'
+    },
+    'howpublished': {
+        'type': 'f_literal',
+        'biblatex': 'howpublished',
+        'csl': 'medium'
+    },
+    'indextitle': {
+        'type': 'f_literal',
+        'biblatex': 'indextitle'
+    },
+    'institution': {
+        'type': 'l_literal',
+        'biblatex': 'institution'
+    },
+    'introduction': {
+        'type': 'l_name',
+        'biblatex': 'introduction'
+    },
+    'isan': {
+        'type': 'f_literal',
+        'biblatex': 'isan'
+    },
+    'isbn': {
+        'type': 'f_literal',
+        'biblatex': 'isbn',
+        'csl': 'ISBN'
+    },
+    'ismn': {
+        'type': 'f_literal',
+        'biblatex': 'ismn'
+    },
+    'isrn': {
+        'type': 'f_literal',
+        'biblatex': 'isrn'
+    },
+    'issn': {
+        'type': 'f_literal',
+        'biblatex': 'issn',
+        'csl': 'ISSN'
+    },
+    'issue': {
+        'type': 'f_literal',
+        'biblatex': 'issue',
+        'csl': 'issue'
+    },
+    'issuesubtitle': {
+        'type': 'f_literal',
+        'biblatex': 'issuesubtitle'
+    },
+    'issuetitle': {
+        'type': 'f_literal',
+        'biblatex': 'issuetitle'
+    },
+    'iswc': {
+        'type': 'f_literal',
+        'biblatex': 'iswc'
+    },
+    'journalsubtitle': {
+        'type': 'f_literal',
+        'biblatex': 'journalsubtitle'
+    },
+    'journaltitle': {
+        'type': 'f_literal',
+        'biblatex': 'journaltitle',
+        csl: 'container-title'
+    },
+    'keywords': {
+        'type': 'l_tag',
+        'biblatex': 'keywords'
+    },
+    'label': {
+        'type': 'f_literal',
+        'biblatex': 'label'
+    },
+    'language': {
+        'type': 'l_key',
+        'biblatex': 'language',
+        'options': 'languageOptions'
+    },
+    'langid': {
+        'type': 'f_key',
+        'strict': true, // Does not allow costum strings
+        'biblatex': 'langid',
+        'csl': 'language',
+        'options': 'langidOptions'
+    },
+    'library': {
+        'type': 'f_literal',
+        'biblatex': 'library'
+    },
+    'location': {
+        'type': 'l_literal',
+        'biblatex': 'location',
+        'csl': 'publisher-place'
+    },
+    'mainsubtitle': {
+        'type': 'f_title',
+        'biblatex': 'mainsubtitle'
+    },
+    'maintitle': {
+        'type': 'f_title',
+        'biblatex': 'maintitle'
+    },
+    'maintitleaddon': {
+        'type': 'f_title',
+        'biblatex': 'maintitleaddon'
+    },
+    'nameaddon': {
+        'type': 'f_literal',
+        'biblatex': 'nameaddon'
+    },
+    'note': {
+        'type': 'f_literal',
+        'biblatex': 'note',
+        'csl': 'note'
+    },
+    'number': {
+        'type': 'f_literal',
+        'biblatex': 'number',
+        'csl': 'number'
+    },
+    'organization': {
+        'type': 'l_literal',
+        'biblatex': 'organization'
+    },
+    'origdate': {
+        'type': 'f_date',
+        'biblatex': 'origdate',
+        'csl': 'original-date'
+    },
+    'origlanguage': {
+        'type': 'f_key',
+        'biblatex': 'origlanguage',
+        'options': 'languageOptions'
+    },
+    'origlocation': {
+        'type': 'l_literal',
+        'biblatex': 'origlocation',
+        'csl': 'original-publisher-place'
+    },
+    'origpublisher': {
+        'type': 'l_literal',
+        'biblatex': 'origpublisher',
+        'csl': 'original-publisher'
+    },
+    'origtitle': {
+        'type': 'f_title',
+        'biblatex': 'origtitle',
+        'csl': 'original-title'
+    },
+    'pages': {
+        'type': 'l_range',
+        'biblatex': 'pages',
+        'csl': 'page'
+    },
+    'pagetotal': {
+        'type': 'f_literal',
+        'biblatex': 'pagetotal',
+        'csl': 'number-of-pages'
+    },
+    'pagination': {
+        'type': 'f_key',
+        'biblatex': 'pagination',
+        'options': ['page', 'column', 'section', 'paragraph', 'verse', 'line']
+    },
+    'part': {
+        'type': 'f_literal',
+        'biblatex': 'part'
+    },
+    'publisher': {
+        'type': 'l_literal',
+        'biblatex': 'publisher',
+        'csl': 'publisher'
+    },
+    'pubstate': {
+        'type': 'f_key',
+        'biblatex': 'pubstate',
+        'csl': 'status',
+        'options': 'pubstateOptions'
+    },
+    'reprinttitle': {
+        'type': 'f_literal',
+        'biblatex': 'reprinttitle'
+    },
+    'series': {
+        'type': 'f_literal',
+        'biblatex': 'series',
+        'csl': 'collection-title'
+    },
+    'shortauthor': {
+        'type': 'l_name',
+        'biblatex': 'shortauthor'
+    },
+    'shorteditor': {
+        'type': 'l_name',
+        'biblatex': 'shorteditor'
+    },
+    'shorthand': {
+        'type': 'f_literal',
+        'biblatex': 'shorthand'
+    },
+    'shorthandintro': {
+        'type': 'f_literal',
+        'biblatex': 'shorthandintro'
+    },
+    'shortjournal': {
+        'type': 'f_literal',
+        'biblatex': 'shortjournal',
+        'csl': 'container-title-short'
+    },
+    'shortseries': {
+        'type': 'f_literal',
+        'biblatex': 'shortseries'
+    },
+    'shorttitle': {
+        'type': 'f_literal',
+        'biblatex': 'shorttitle',
+        'csl': 'title-short'
+    },
+    'subtitle': {
+        'type': 'f_title',
+        'biblatex': 'subtitle'
+    },
+    'title': {
+        'type': 'f_title',
+        'biblatex': 'title',
+        'csl': 'title'
+    },
+    'titleaddon': {
+        'type': 'f_title',
+        'biblatex': 'titleaddon'
+    },
+    'translator': {
+        'type': 'l_name',
+        'biblatex': 'translator',
+        'csl': 'translator'
+    },
+    'type': {
+        'type': 'f_key',
+        'biblatex': 'type',
+        'options': ['manual', 'patent', 'report', 'thesis', 'mathesis', 'phdthesis', 'candthesis', 'techreport', 'resreport', 'software', 'datacd', 'audiocd']
+    },
+    'url': {
+        'type': 'f_uri',
+        'biblatex': 'url',
+        'csl': 'URL'
+    },
+    'urldate': {
+        'type': 'f_date',
+        'biblatex': 'urldate',
+        'csl': 'accessed'
+    },
+    'venue': {
+        'type': 'f_literal',
+        'biblatex': 'venue',
+        'csl': 'event-place'
+    },
+    'version': {
+        'type': 'f_literal',
+        'biblatex': 'version',
+        'csl': 'version'
+    },
+    'volume': {
+        'type': 'f_literal',
+        'biblatex': 'volume',
+        'csl': 'volume'
+    },
+    'volumes': {
+        'type': 'f_literal',
+        'biblatex': 'volumes',
+        'csl': 'number-of-volumes'
+    }
+}
