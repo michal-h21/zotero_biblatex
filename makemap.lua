@@ -16,7 +16,9 @@ local function build_csl_fields(map)
   for _, entry in pairs(map) do
     local csl = entry.csl
     if csl then
-      t[csl] = entry
+      local entries = t[csl] or {}
+      table.insert(entries, entry)
+      t[csl] = entries
     end
   end
   return t
@@ -49,13 +51,15 @@ local bibtypes  = load_json("bibtypes.json")
 local zotero_types = load_xml("zoterotypes.xml")
 local zotero_descriptions = get_zotero_descriptions(zotero_types)
 
-for _, field in ipairs(zotero_types:query_selector("cslFieldMap map")) do
+for _, field in ipairs(zotero_types:query_selector("cslFieldMap map, cslCreatorMap map")) do
   local cslfield = field:get_attribute("cslfield")
   local biblatexmap = cslfields[cslfield] or {}
-  local biblatexfield = biblatexmap.biblatex
+  local firstbiblatex = biblatexmap[1] or {}
+  local biblatexfield = firstbiblatex.biblatex 
   local description = zotero_descriptions[cslfield] or {}
-  if not biblatexfield then
+  -- if not biblatexfield then
+  if #biblatexmap > 0 then
     -- debug mapping
-    print(field:get_attribute("zfield"), cslfield, biblatexfield, description.description)
+    print(field:get_attribute("zfield"), cslfield, biblatexfield, #biblatexmap, description.description)
   end
 end
